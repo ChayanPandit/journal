@@ -7,6 +7,8 @@ import uuid from 'react-uuid';
 
 function App() {
 
+  localStorage.notes = localStorage.notes.trim(); // remove the unwanted whitespace
+
   const [notes, setNotes] = useState(JSON.parse(localStorage.notes)||[]);
 
   const [activeNote,setActiveNote]=useState(false);
