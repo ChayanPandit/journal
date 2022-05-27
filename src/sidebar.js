@@ -1,4 +1,4 @@
-function sidebar({
+function Sidebar({
     notes,
     onAddNote,
     onDeleteNote,
@@ -37,4 +37,4 @@ function sidebar({
     </div>
     )
 }
-export default sidebar;
+export default Sidebar;

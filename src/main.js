@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown";
-function main({
+function Main({
     activeNote,
     onUpdateNote
 }){
@@ -38,4 +38,4 @@ function main({
     )
 }
 
-export default main;
+export default Main;
