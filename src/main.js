@@ -35,7 +35,7 @@ function Main({
             </ReactMarkdown>
         </div>
     </div>
-    )
+    );
 }
 
 export default Main;
