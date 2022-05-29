@@ -11,22 +11,52 @@ body,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100%;
   height: 100vh;
+  background-color: #EDE7E3;background-color: #EDE7E3;
   overflow: hidden;
   font-size: 16px;
+  margin: 0%;
 }
 
-button {
-  background: none;
-  border: 0;
+
+.app-sidebar-header{
+  background-color:#16697A;
+  color: white;
+}
+.add-button{
   margin: 0;
   padding: 0;
   font-size: inherit;
   font-family: inherit;
   cursor: pointer;
-  color: #08c;
+  background: none;
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: wheat;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  transition: background-color 200ms ease-in-out;
 }
-button:hover {
-  color: #04c;
+.add-button:hover{
+  background-color: #EEA31E;
+  text-decoration: none;
+  color: #e1f1ff;
+}
+
+.del-button{
+  color: rgb(129, 16, 16);
+  background: none;
+  border: 1px solid;
+  padding: 2%;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color: rgb(247, 247, 247);
+}
+.del-button:hover{
+  color: red;
+  border-color: red;
 }
 
 .App {
@@ -38,6 +68,7 @@ button:hover {
 .app-sidebar {
   width: 30%;
   height: 100vh;
+  background-color: #EDE7E3;
   border-right: 1px solid #ddd;
 }
 
@@ -57,6 +88,8 @@ button:hover {
 .app-sidebar-note {
   padding: 25px;
   cursor: pointer;
+  border-radius: 10px 10px;
+  margin-top: 1%;
 }
 .sidebar-note-title {
   display: flex;
@@ -78,8 +111,8 @@ button:hover {
 }
 .app-sidebar-note.active,
 .app-sidebar-note.active small {
-  background: #08c;
-  color: white;
+  background-color: #bfac9f;
+  color: rgb(32, 27, 27);
 }
 
 /* NOTE EDITOR/PREVIEW (MAIN) STYLES */
